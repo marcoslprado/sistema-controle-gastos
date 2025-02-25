@@ -1,0 +1,97 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #34495e;
+    margin-bottom: 15px;
+  }
+  
+  .App {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    background: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  form h2 {
+    margin-top: 0;
+  }
+  
+  input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .Totais {
+    background: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .Totais h2 {
+    margin-top: 0;
+  }
+  
+  .Totais p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #2c3e50;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 600px) {
+    .App {
+      padding: 10px;
+    }
+  
+    form, .Totais {
+      padding: 15px;
+    }
+  
+    input, select, button {
+      font-size: 14px;
+    }
+  }
